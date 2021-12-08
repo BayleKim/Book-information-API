@@ -1,10 +1,9 @@
 # Book-information-API
 
 How to use?
-You can use AJAX to call this API and will receive book information in return. If you are using jQuery, you can use the $.ajax() function in the code snippet below to get started.
-
+"https://www.cato.top:9912/"is the address of my personal cloud server.
 $.ajax({
-  url: 'https://www.cato.top:9912/...',    // "https://www.cato.top:9912/"is the address of my personal cloud server.
+  url: 'https://www.cato.top:9912/...',   
   dataType: 'json',
   success: function(data) {
     console.log(data);
